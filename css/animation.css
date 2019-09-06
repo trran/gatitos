@@ -1,0 +1,57 @@
+.faceIn {
+  animation-duration: 4s;
+  -webkit-animation-duration: 4s;
+  animation-fill-mode: both;
+  -webkit-animation-fill-mode: both;
+  animation-name: faceIn;
+  -webkit-animation-name: faceIn;
+}
+
+@keyframes  faceIn {
+  from{
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.faceDown {
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  animation-fill-mode: both;
+  -webkit-animation-fill-mode: both;
+  animation-name: faceDown;
+  -webkit-animation-name: faceDown;
+}
+
+@keyframes faceDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0,-100%,0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0,0,0);
+  }
+}
+
+.faceUp {
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  animation-fill-mode: both;
+  -webkit-animation-fill-mode: both;
+  animation-name: faceUp;
+  -webkit-animation-name: faceUp;
+}
+
+@keyframes faceUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0,100%,0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0,0,0);
+  }
+}

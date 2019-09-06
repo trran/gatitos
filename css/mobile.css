@@ -1,0 +1,49 @@
+@media (max-width: 600px) {
+
+  .products{
+    display: inherit;
+    height: auto;
+  }
+  .product{
+    margin-top: auto;
+  }
+  .main_section{
+    padding: 4%;
+  }
+  .beneficios, .mentions{
+    display: inherit;
+  }
+
+  .footer-image-container {
+    height: auto;
+    width:  auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+
+  .footer-image-facebook{
+    background-image: url(../images/facebook.svg);
+    background-repeat:round;
+    height: 30px;
+  }
+  
+  .footer-image-instagram{
+    background-image: url(../images/instagram.svg);
+    background-repeat:round;
+    height: 30px;
+  }
+  
+  .footer-image-twitter
+  {
+    background-image: url(../images/twitter.svg);
+    background-repeat:round;
+    height: 30px;  
+
+  }
+
+  .footer-contact {
+    font-size: 12px;
+  }
+
+}
